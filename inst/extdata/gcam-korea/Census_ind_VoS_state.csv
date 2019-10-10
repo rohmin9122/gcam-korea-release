@@ -1,0 +1,133 @@
+# File: Census_ind_VoS_state.csv
+# Title: Value of Shipments from Manufacturing by State
+# Units: thousand USD in 2008
+# Source: US Census Bureau Industry Data
+# Column types: ccicinn
+# ----------
+state_name,state,NAICS_code,industry,year,VoS_thousUSD_NA,VoS_thousUSD
+AAA,A,31,Manufacturing,2008,116400000,116400000
+AAA,A,311,Food mfg,2008,9661432,9661432
+AAA,A,3111,Animal food mfg,2008,1744928,1744928
+AAA,A,3116,Animal  slaughtering and processing,2008,4198062,4198062
+AAA,A,3118,Bakeries and tortilla mfg,2008,461753,461753
+AAA,A,3119,Other food mfg,2008,1020629,1020629
+AAA,A,312,Beverage and tobacco product mfg,2008,1073702,1073702
+AAA,A,3121,Beverage mfg,2008,NA,0
+AAA,A,313,Textile mills,2008,1201568,1201568
+AAA,A,3131,"Fiber, yarn, and thread mills",2008,746466,746466
+AAA,A,3132,Fabric mills,2008,NA,0
+AAA,A,314,Textile product mills,2008,1156667,1156667
+AAA,A,3141,Textile furnishings mills,2008,747664,747664
+AAA,A,3149,Other textile product mills,2008,409003,409003
+AAA,A,315,Apparel mfg,2008,561695,561695
+AAA,A,3151,Apparel knitting mills,2008,385143,385143
+AAA,A,321,Wood product mfg,2008,3682060,3682060
+AAA,A,3211,Sawmills and wood preservation,2008,1379999,1379999
+AAA,A,3212,"Veneer, plywood, and engineered wood product mfg",2008,631510,631510
+AAA,A,3219,Other wood product mfg,2008,1670551,1670551
+AAA,A,322,Paper mfg,2008,8526893,8526893
+AAA,A,3221,"Pulp, paper, and paperboard mills",2008,7357513,7357513
+AAA,A,3222,Converted paper product mfg,2008,1169380,1169380
+AAA,A,323,Printing and related support activities,2008,672875,672875
+AAA,A,3231,Printing and related support activities,2008,672875,672875
+AAA,A,324,Petroleum and coal products mfg,2008,6879382,6879382
+AAA,A,3241,Petroleum and coal products mfg,2008,6879382,6879382
+AAA,A,325,Chemical mfg,2008,11455732,11455732
+AAA,A,3251,Basic chemical mfg,2008,6858428,6858428
+AAA,A,3252,"Resin, syn rubber, and artificial syn fibers and filaments mfg",2008,2387700,2387700
+AAA,A,3255,"Paint, coating, and adhesive mfg",2008,576832,576832
+AAA,A,326,Plastics and rubber products mfg,2008,4127724,4127724
+AAA,A,3261,Plastics product mfg,2008,2691075,2691075
+AAA,A,3262,Rubber product mfg,2008,1436649,1436649
+AAA,A,327,Nonmetallic mineral product mfg,2008,2697306,2697306
+AAA,A,3272,Glass and glass product mfg,2008,257482,257482
+AAA,A,3273,Cement and concrete product mfg,2008,1406408,1406408
+AAA,A,3279,Other nonmetallic mineral product mfg,2008,505653,505653
+AAA,A,331,Primary metal mfg,2008,15518820,15518820
+AAA,A,3311,Iron and steel mills and ferroalloy mfg,2008,9178883,9178883
+AAA,A,3313,Alumina and aluminum production and processing,2008,1544156,1544156
+AAA,A,3314,Nonferrous metal (except aluminum) production and processing,2008,2067725,2067725
+AAA,A,3315,Foundries,2008,1879020,1879020
+AAA,A,332,Fabricated metal product mfg,2008,6561386,6561386
+AAA,A,3321,Forging and stamping,2008,340634,340634
+AAA,A,3323,Architectural and structural metals mfg,2008,2756656,2756656
+AAA,A,3324,"Boiler, tank, and shipping container mfg",2008,549939,549939
+AAA,A,3327,"Machine shops, turned product, and screw, nut, and bolt mfg",2008,1114159,1114159
+AAA,A,3328,"Coating, engraving, heat treating, and allied activities",2008,238436,238436
+AAA,A,3329,Other fabricated metal product mfg,2008,1246899,1246899
+AAA,A,333,Machinery mfg,2008,3905124,3905124
+AAA,A,3334,"Ventilation, heating, AC, and commercial refrigeration equip mfg",2008,608868,608868
+AAA,A,3335,Metalworking machinery mfg,2008,196485,196485
+AAA,A,3336,"Engine, turbine, and power transmission equipment mfg",2008,1214403,1214403
+AAA,A,3339,Other general purpose machinery mfg,2008,1010919,1010919
+AAA,A,334,Computer and electronic product mfg,2008,4109398,4109398
+AAA,A,3341,Computer and peripheral equipment mfg,2008,744707,744707
+AAA,A,3342,Communications equipment mfg,2008,873080,873080
+AAA,A,3344,Semiconductor and other electronic component mfg,2008,1268643,1268643
+AAA,A,3345,"Navigational, measuring, medical, and control instruments mfg",2008,693435,693435
+AAA,A,3346,Mfg and reproducing magnetic and optical media,2008,513373,513373
+AAA,A,335,"Electrical equipment, appliance, and component mfg",2008,2148133,2148133
+AAA,A,3352,Household appliance mfg,2008,NA,0
+AAA,A,3353,Electrical equipment mfg,2008,348118,348118
+AAA,A,3359,Other electrical equipment and component mfg,2008,901936,901936
+AAA,A,336,Transportation equipment mfg,2008,29357463,29357463
+AAA,A,3361,Motor vehicle mfg,2008,16727384,16727384
+AAA,A,3362,Motor vehicle body and trailer mfg,2008,1032218,1032218
+AAA,A,3363,Motor vehicle parts mfg,2008,8349351,8349351
+AAA,A,3364,Aerospace product and parts mfg,2008,1554078,1554078
+AAA,A,3366,Ship and boat building,2008,845714,845714
+AAA,A,3369,Other transportation equipment mfg,2008,796222,796222
+AAA,A,337,Furniture and related product mfg,2008,1985898,1985898
+AAA,A,3371,Household and institutional furniture and kitchen cabinet mfg,2008,1236414,1236414
+AAA,A,3372,Office furniture (including fixtures) mfg,2008,675177,675177
+AAA,A,339,Miscellaneous mfg,2008,1118027,1118027
+AAA,A,3391,Medical equipment and supplies mfg,2008,379895,379895
+AAA,A,3399,Other miscellaneous mfg,2008,738132,738132
+BBB,B,31,Manufacturing,2008,9070714,9070714
+BBB,B,311,Food mfg,2008,2186305,2186305
+BBB,B,3117,Seafood product preparation and packaging,2008,2128847,2128847
+BBB,B,3253,"Pesticide, fertilizer, and other agricultural chemical mfg",2008,1142641,1142641
+CCC,C,31,Manufacturing,2008,56273714,56273714
+CCC,C,311,Food mfg,2008,5172923,5172923
+CCC,C,3115,Dairy product mfg,2008,2441489,2441489
+CCC,C,3116,Animal  slaughtering and processing,2008,521411,521411
+CCC,C,3118,Bakeries and tortilla mfg,2008,558529,558529
+CCC,C,3119,Other food mfg,2008,755372,755372
+CCC,C,312,Beverage and tobacco product mfg,2008,1620271,1620271
+CCC,C,3121,Beverage mfg,2008,1620271,1620271
+CCC,C,321,Wood product mfg,2008,866305,866305
+CCC,C,3219,Other wood product mfg,2008,681200,681200
+CCC,C,322,Paper mfg,2008,971766,971766
+CCC,C,3222,Converted paper product mfg,2008,687461,687461
+CCC,C,323,Printing and related support activities,2008,911949,911949
+CCC,C,3231,Printing and related support activities,2008,911949,911949
+CCC,C,325,Chemical mfg,2008,4058226,4058226
+CCC,C,3256,"Soap, cleaning compound, and toilet preparation mfg",2008,NA,0
+CCC,C,326,Plastics and rubber products mfg,2008,1713556,1713556
+CCC,C,3261,Plastics product mfg,2008,1569170,1569170
+CCC,C,327,Nonmetallic mineral product mfg,2008,2561274,2561274
+CCC,C,3272,Glass and glass product mfg,2008,228798,228798
+CCC,C,3273,Cement and concrete product mfg,2008,2031791,2031791
+CCC,C,331,Primary metal mfg,2008,2851324,2851324
+CCC,C,3314,Nonferrous metal (except aluminum) production and processing,2008,1955292,1955292
+CCC,C,332,Fabricated metal product mfg,2008,4452189,4452189
+CCC,C,3323,Architectural and structural metals mfg,2008,1549664,1549664
+CCC,C,3327,"Machine shops, turned product, and screw, nut, and bolt mfg",2008,852622,852622
+CCC,C,3329,Other fabricated metal product mfg,2008,1388623,1388623
+CCC,C,333,Machinery mfg,2008,1827006,1827006
+CCC,C,3331,"Agriculture, construction, and mining machinery mfg",2008,503226,503226
+CCC,C,3332,Industrial machinery mfg,2008,412346,412346
+CCC,C,3334,"Ventilation, heating, AC, and commercial refrigeration equip mfg",2008,267172,267172
+CCC,C,3335,Metalworking machinery mfg,2008,227280,227280
+CCC,C,334,Computer and electronic product mfg,2008,10284847,10284847
+CCC,C,3344,Semiconductor and other electronic component mfg,2008,4811958,4811958
+CCC,C,3345,"Navigational, measuring, medical, and control instruments mfg",2008,4348710,4348710
+CCC,C,335,"Electrical equipment, appliance, and component mfg",2008,652100,652100
+CCC,C,336,Transportation equipment mfg,2008,14397254,14397254
+CCC,C,3363,Motor vehicle parts mfg,2008,694586,694586
+CCC,C,3364,Aerospace product and parts mfg,2008,13077460,13077460
+CCC,C,337,Furniture and related product mfg,2008,962800,962800
+CCC,C,3371,Household and institutional furniture and kitchen cabinet mfg,2008,505653,505653
+CCC,C,339,Miscellaneous mfg,2008,1974885,1974885
+CCC,C,3391,Medical equipment and supplies mfg,2008,1160002,1160002
+CCC,C,3399,Other miscellaneous mfg,2008,814883,814883
