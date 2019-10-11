@@ -6,10 +6,8 @@ gcam-korea data system
 
 ## Model Results
 
-<p align="center">
-<img src="/res/TFCin2015.png" width="700" height="1000">
-# Fig1. Total final energy consumptions in 2015
-</p>
+<img align="center" src="/res/TFCin2015.png" width="700" height="1000">
+# Fig1. Total final energy consumptions in 2015 {style=text-align:center}
 
 ## Package Instructions
 
