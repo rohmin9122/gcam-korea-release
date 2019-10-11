@@ -1,12 +1,17 @@
 # gcam-korea-release
 gcam-korea data system
 
-# Model Results
+## Introduction
 
-<center><img src="/res/TFCin2015.png" width="700" height="1000"></center>
-Fig1. Total final energy consumptions in 2015
 
-# Package Instructions
+## Model Results
+
+<p align="center">
+<img src="/res/TFCin2015.png" width="700" height="1000">
+# Fig1. Total final energy consumptions in 2015
+</p>
+
+## Package Instructions
 
 ```R
 # Install package
