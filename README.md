@@ -23,3 +23,5 @@ driver()
 # Make a specific xml files
 driver(stop_after = "module_gcam.korea_batch_socioeconomics_xml")
 ```
+
+Please download GCAM 5.1.3 release package (https://github.com/JGCRI/gcam-core/releases) and then, put the xml files on ./gcamdata/xml.
