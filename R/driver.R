@@ -3,15 +3,15 @@ if(!require("gcamdata")){
   devtools::install_github("JGCRI/gcamdata")
 }
 
-# tidyr ver1.0.0 causes problem with the usage of tidyr::complete
-if(!require("tidyr")){
-  install.packages( "https://github.com/tidyverse/tidyr/archive/v0.8.3.tar.gz", repos = NULL, type = "libcurl", dependencies = TRUE)
-  #devtools::install_version("tidyr", version="0.8.3", dependencies=TRUE)
-} else if(packageVersion("tidyr") == "1.0.0"){
-  remove.packages("tidyr")
-  install.packages( "https://github.com/tidyverse/tidyr/archive/v0.8.3.tar.gz", repos = NULL, type = "libcurl", dependencies = TRUE)
-} else {
-}
+# # tidyr ver1.0.0 causes problem with the usage of tidyr::complete
+# if(!require("tidyr")){
+#   install.packages( "https://github.com/tidyverse/tidyr/archive/v0.8.3.tar.gz", repos = NULL, type = "libcurl", dependencies = TRUE)
+#   #devtools::install_version("tidyr", version="0.8.3", dependencies=TRUE)
+# } else if(packageVersion("tidyr") == "1.0.0"){
+#   remove.packages("tidyr")
+#   install.packages( "https://github.com/tidyverse/tidyr/archive/v0.8.3.tar.gz", repos = NULL, type = "libcurl", dependencies = TRUE)
+# } else {
+# }
 
 
 
