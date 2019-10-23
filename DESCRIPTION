@@ -10,7 +10,7 @@ Authors@R: c( person("Seungho", "Jeon", role="aut", email="sidus44@naver.com"),
 			person("Energy modeling laboratory in Ajou university", role = "cph", comment = "http://eml.ajou.ac.kr/eml/"))
 Description: Note that this package is based on gcamdata which is developed by PNNL (https://github.com/JGCRI/gcam-core.git).
 License: MIT + file LICENSE
-Depends: R (<= 3.4.4)
+Depends: R (>= 3.4.4)
 Imports:
     assertthat ,
     dplyr,
