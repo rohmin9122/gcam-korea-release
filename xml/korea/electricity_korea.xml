@@ -54913,7 +54913,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1.5</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54921,7 +54921,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1.5</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54929,7 +54929,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54937,7 +54937,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54945,7 +54945,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54953,7 +54953,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54961,7 +54961,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54969,7 +54969,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54977,7 +54977,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54985,7 +54985,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -54993,7 +54993,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -55001,7 +55001,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -55009,7 +55009,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -55017,7 +55017,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -55025,7 +55025,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -55033,7 +55033,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -55041,7 +55041,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>4.5</coefficient>
+                                <coefficient>1</coefficient>
                                 <market-name>GG</market-name>
                             </minicam-energy-input>
                         </period>
@@ -55117,7 +55117,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>1</coefficient>
+                                <coefficient>3</coefficient>
                                 <market-name>GW</market-name>
                             </minicam-energy-input>
                         </period>
@@ -55125,7 +55125,7 @@
                             <share-weight>1</share-weight>
                             <CO2 name="CO2"/>
                             <minicam-energy-input name="electricity">
-                                <coefficient>1</coefficient>
+                                <coefficient>1.5</coefficient>
                                 <market-name>GW</market-name>
                             </minicam-energy-input>
                         </period>
