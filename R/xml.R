@@ -19,7 +19,7 @@
 create_xml <- function(xml_file, mi_header = NULL) {
   if(is.null(mi_header)) {
     mi_header <- system.file("extdata/mi_headers", "ModelInterface_headers.txt",
-                             package = "gcamdata")
+                             package = "gcamkordata")
   }
 
   list(xml_file = xml_file,
@@ -75,7 +75,7 @@ make_run_xml_conversion <- function() {
       XML_WARNING_GIVEN <<- TRUE
     } else if(isTRUE(use_java)) {
       java_cp <- system.file("extdata/ModelInterface", "CSVToXML.jar",
-                             package = "gcamdata")
+                             package = "gcamkordata")
       # Note ideally we would use the `pipe` method to run the CSVToXML conversion
       # as this would allow us to avoid writing large CSV files to disk only to
       # convert to XML. However it appears on Windows there is no way to "close"
@@ -266,7 +266,7 @@ add_node_equiv_xml <- function(dot, equiv_class) {
 cmp_xml_files <- function(fleft, fright, raw = FALSE)
 {
   cmd <- system2('which', 'python', stdout=TRUE)
-  py <- system.file('exec/xml_verify.py', package = 'gcamdata')
+  py <- system.file('exec/xml_verify.py', package = 'gcamkordata')
   ## normalizePath prints a warning when one of the files doesn't exist, but we'll
   ## catch that as an error below.
   suppressWarnings({args <- normalizePath(c(py, fleft, fright))})
