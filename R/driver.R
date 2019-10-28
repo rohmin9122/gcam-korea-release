@@ -1,8 +1,4 @@
 # driver.R
-if(!require("gcamdata")){
-  devtools::install_github("JGCRI/gcamdata")
-}
-
 # # tidyr ver1.0.0 causes problem with the usage of tidyr::complete
 # if(!require("tidyr")){
 #   install.packages( "https://github.com/tidyverse/tidyr/archive/v0.8.3.tar.gz", repos = NULL, type = "libcurl", dependencies = TRUE)
@@ -12,7 +8,6 @@ if(!require("gcamdata")){
 #   install.packages( "https://github.com/tidyverse/tidyr/archive/v0.8.3.tar.gz", repos = NULL, type = "libcurl", dependencies = TRUE)
 # } else {
 # }
-
 
 
 TEMP_DATA_INJECT <- "temp-data-inject/"
@@ -198,7 +193,7 @@ driver <- function(all_data = empty_data(),
   assert_that(is.logical(write_xml))
   assert_that(is.logical(quiet))
 
-  if(!quiet) cat("GCAM Data System v", as.character(utils::packageVersion("gcamdata")), "\n", sep = "")
+  if(!quiet) cat("GCAM-Korea Data System v", as.character(utils::packageVersion("gcamkordata")), "\n", sep = "")
 
   #read input list
   chunklist <- find_chunks()
@@ -212,8 +207,8 @@ driver <- function(all_data = empty_data(),
 
   if(!quiet) cat("Found", nrow(chunkoutputs), "chunk data products\n")
 
-  # write.csv(chunkinputs,"chunkinputs_MEMO.csv")
-  # write.csv(chunkoutputs,"chunkoutputs_MEMO.csv")
+   # write.csv(chunkinputs,"chunkinputs_MEMO.csv")
+   # write.csv(chunkoutputs,"chunkoutputs_MEMO.csv")
 
   # Keep track of chunk inputs for later pruning
   chunkinputs %>%

@@ -24,7 +24,6 @@ Suggests:
     mockr (>= 0.1),
     testthat (>= 1.0.2),
     R.utils (>= 2.6.0),
-    gcamdata.compdata
 Remotes: https://github.com/rohmin9122/gcam-korea-release.git
 Encoding: UTF-8
 LazyData: true
