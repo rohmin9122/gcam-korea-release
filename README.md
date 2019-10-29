@@ -2,10 +2,10 @@
 
 ## What is GCAM-Korea
 
-* GCAM-Korea is for building input files of GCAM, which represents the provincial energy system in Korea.
-* GCAM-Korea subdivides the Korea energy system into the sixteen regions’ one. Even if the there are 17 provinces in Korea, the reason why GCAM-Korea represents 16 provinces without Sejong region, which is established in 2012, is that there is not enough data to model Sejong separately and just 0.5% of Korea population resides in Sejong.
-* Some data has been pre-processed  to fit with the specific structure of [GCAM-USA](https://github.com/JGCRI/gcam-core) data.
-* Other type of data is newly added by new structures such as nuclear power phase-out policy or modal share in transportation sector, etc.
+* GCAM-Korea is for making input files of GCAM, which represents the provincial energy system in Korea. 
+* Data structures and R scripts of GCAM-Korea is based on [GCAM-USA](https://github.com/JGCRI/gcam-core).
+* GCAM-Korea subdivides Korea energy system into sixteen provinces. GCAM-Korea represents 16 provinces without Sejong province, since there is not enough data to model Sejong separately and just 0.5% of Korea population resides in Sejong.
+* Korea provincial data has been collected from various sources. Other data is added by new structures such as nuclear power phase-out policy or modal share in transportation sector, etc.
 
 |<img src="./res/map.png" width="500"><br>|<img src="./res/datasystem.png" width="500"><br>|
 |:---:|:---:|
@@ -15,7 +15,7 @@
 #### R Pacakge
 * Name of Package: gcamkordata
 * Software required: R version 3.1.2 or higher
-* Publication: Jeon, S.H, Roh M.Y. and Kim S.D (?) ??
+<!--* Publication: Jeon, S.H, Roh M.Y. and Kim S.D (?) GCAM-Korea: An R package to generate GCAM input files at Korea provincial level.-->
 
 #### How to install gcamkordata and make input files of GCAM
 ```R
@@ -34,18 +34,17 @@ gcamkordata::driver()
 driver(stop_after = "module_gcam.korea_batch_socioeconomics_xml")
 ```
 #### How to simulate GCAM
-1. Make XML files as following the above instruction.<br/>
+1. Make XML files according to the above instructions.<br/>
 2. Download [GCAM 5.1.3](https://github.com/JGCRI/gcam-core/releases).<br/>
-3. Copy the all XML files and folder and then paste into <gcam-v5.1.3-Windows-Release-Package/gcamdata/xml>.<br/>
+3. Copy XML files and folder in <working dir/xml>, and then paste into <gcam-v5.1.3-Windows-Release-Package/gcamdata/xml>.<br/>
 4. An [input configuration file](https://github.com/rohmin9122/gcam-korea-release/blob/master/configuration-gcamkorea.xml) is included in the working directory.<br/> 
 5. Please refer to [GCAM 5.1.3 instruction](https://jgcri.github.io/gcam-doc/toc.html) for running GCAM.<br/>
 
 
 
 ## Model Results
-* Some parameters are adjusted to reflect historical performance or trend of each provinces, such as fuel preference and income-elasticity in 2015 and 2020.
-
-* The model results turned out to be compatible with historical performance. And the region-specific features are well captured.</br>
+* Some parameters are adjusted to reflect historical performance or the trend of each provinces, such as fuel preference and income-elasticity in 2015 and 2020. 
+* From the left hand-side of Fig 1, our model results turned out to be compatible with historical performance. In addition, it is worth noticing from Fig 1 that province-specific socioeconomic and energy features such as population, industrial complex, power plants and airport are well captured. </br>
 
 <p align="center">
   <img src="./res/trend.png" width="500"/><br>
@@ -54,18 +53,20 @@ driver(stop_after = "module_gcam.korea_batch_socioeconomics_xml")
 
 
 
-* In the building and transportation sectors, Seoul (Capital) and Gyeonggi (Bedroom suburb for Seoul) are the most energy-consuming provinces, reflecting the fact that 44% of total population resides in the two provinces.
+* The building energy consumption of provinces highly depends on the size of population. Seoul (the Capital of Korea) and Gyeonggi (Bedroom suburb for Seoul) accounted for 44% of the national building energy consumption, reflecting the fact that 44% of total population resides in the two provinces.
 
-* In the industrial sector, four regions with huge industrial complexes consume 77% of the national industrial energy. The industrial complexes include oil refineries and steel production companies, which are ranked 5th and 6th largest industry in the world, respectively.
+* In transportation sector, provincial distribution of energy use is similar to that of building sector except for Incheon. Because huge airport and harbors are located, Incheon is the second most transportation energy consuming province in Korea. 
 
-* In Korea, base-load power plants are coal and nuclear power, most of them located along coastlines. Electricity is generated from those areas and then transmitted to metropolitans.
+* In industrial sector, four provinces (Jeonnam, Chungnam, Ulsan and Gyeongbuk) with huge industrial complexes consume 77% of the national industrial energy. The industrial complexes include oil refineries and steel production companies, which are ranked 5th and 6th largest industry in the world, respectively.
+
+* In power generation sector, it is notable that base-load power plants are coal and nuclear power in Korea. In non-metropolitan area such as Chungnam, electricity is generated and then transmitted to other metropolitan areas.
 
 <p align="center">
   <img src="./res/TFC2015.png" width="500"/><br>
   <a href="https://github.com/rohmin9122/gcam-korea-release/blob/master/res/TFC2015.png">Fig 2. Total final energy consumption by sectors and fuels.<br>In the last row, electricity generation by fuels in 2015</a>
 </p>
 
-## Data Sources
+## Source of Data in GCAM-Korea
 <!--<style>
 table {
   font-size: 12px;
@@ -87,8 +88,8 @@ table {
 |Auxiliary use factor| 1961, 2000-2017|KEPCO, Statistics of Electric Power in Korea 2017|http://home.kepco.co.kr/kepco/KO/ntcob/list.do?boardCd=BRD_000099&menuCd=FN05030103|
 |Nuclear plant information |1990-2018 |KHNP, Design Lifetime of Nuclear Power Plant| http://nsic.nssc.go.kr/intrst/view.do?ppleIntrstInfoSn=22|
 |Value of shipment of cement and fertilizer|2011|KOSIS, Mining and Manufacturing Survey 2011|http://kosis.kr/publication/publicationThema.do?pubcode=FE |
-|Vehicle energyconsumption|2010|KEEI, 에너지총조사보고서, 자동차주행거리연구|
-|Vehicle Kilometer|2010|TS,KEA(상구과장님이 주신 보고서, 228페이지)|
-|Vehicle Loadfactor|2010, 2015|KOTI,2018 국가교통통계연보|
+|Vehicle energyconsumption|2010|KEEI (Energy Consumption Survey), TS (Automobile Mileage Analysis)|
+|Vehicle Kilometer|2010|KEA, 건물·수송부문 온실가스 감축수단 Pool 구축|
+|Vehicle Loadfactor|2010, 2015|KOTI, Statistical yearbook of MOLIT 2018| http://stat.molit.go.kr/portal/stat/yearReport.do|
 |Temperature|1975-2015|KMA, Average temperature|https://data.kma.go.kr/stcs/grnd/grndTaList.do?pgmNo=70|
 |Floor space|2011|MOLIT, Open Building Data|http://open.eais.go.kr/|
