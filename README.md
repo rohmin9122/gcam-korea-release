@@ -5,7 +5,7 @@
 * GCAM-Korea is for making input files of GCAM, which represents the provincial energy system in Korea. 
 * Data structures and R scripts of GCAM-Korea is based on [GCAM-USA](https://github.com/JGCRI/gcam-core).
 * GCAM-Korea subdivides Korea energy system into sixteen provinces. GCAM-Korea represents 16 provinces without Sejong province, since there is not enough data to model Sejong separately and just 0.5% of Korea population resides in Sejong.
-* Korea provincial data has been collected from various sources. Other data is added by new structures such as nuclear power phase-out policy or modal share in transportation sector, etc.
+* Korea provincial data has been collected from [various sources](#Source-of-Data-in-GCAM-Korea). Other data is added by new structures such as nuclear power phase-out policy or modal share in transportation sector, etc.
 
 |<img src="./res/map.png" width="500"><br>|<img src="./res/datasystem.png" width="500"><br>|
 |:---:|:---:|
@@ -93,3 +93,5 @@ table {
 |Vehicle Loadfactor|2010, 2015|KOTI, Statistical yearbook of MOLIT 2018| http://stat.molit.go.kr/portal/stat/yearReport.do|
 |Temperature|1975-2015|KMA, Average temperature|https://data.kma.go.kr/stcs/grnd/grndTaList.do?pgmNo=70|
 |Floor space|2011|MOLIT, Open Building Data|http://open.eais.go.kr/|
+
+<!--[Supplementary file]()-->
