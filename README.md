@@ -15,7 +15,7 @@
 #### R Pacakge
 * Name of Package: gcamkordata
 * Software required: R version 3.1.2 or higher
-<!--* Publication: Jeon, S.H, Roh M.Y. and Kim S.D (?) GCAM-Korea: An R package to generate GCAM input files at Korea provincial level.-->
+* Publication: Jeon, S.H, Roh M.Y. and Kim S.D (?) GCAM-Korea: An R package to generate GCAM input files at provincial level.
 
 #### How to install gcamkordata and make input files of GCAM
 ```R
