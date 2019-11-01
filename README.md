@@ -19,9 +19,6 @@
 
 #### How to install gcamkordata and make input files of GCAM
 ```R
-# Note: tidyr ver.1.0.0 has some problems in this pacakge.
-# So we recommend R version 3.4.4 or lower version of tidyr package.
-
 # Install package
 # devtools package must be installed on your PC
 devtools::install_github("rohmin9122/gcam-korea-release")
