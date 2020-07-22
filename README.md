@@ -63,6 +63,9 @@ driver(stop_after = "module_gcam.korea_batch_socioeconomics_xml")
   <a href="https://github.com/rohmin9122/gcam-korea-release/blob/master/res/TFC2015.png">Fig 2. Total final energy consumption by sectors and fuels.<br>In the last row, electricity generation by fuels in 2015</a>
 </p>
 
+## Reference
+Jeon, S., Roh, M., Oh, J., & Kim, S. (2020). Development of an Integrated Assessment Model at Provincial Level: GCAM-Korea. Energies, 13(10), 2565. Available online: https://doi.org/10.3390/en13102565
+
 ## Source of Data in GCAM-Korea
 <!--<style>
 table {
